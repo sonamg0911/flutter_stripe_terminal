@@ -23,7 +23,7 @@ class StripeTokenProvider(val activity: Activity, val methodChannel: MethodChann
                         }
 
                         override fun error(
-                            errorCode: String?,
+                            errorCode: String,
                             errorMessage: String?,
                             errorDetails: Any?
                         ) {
